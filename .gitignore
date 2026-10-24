@@ -21,3 +21,6 @@ backup/
 dtb/
 recovery/
 logs/
+
+# Upstream sweet clone (temporary workdir)
+sweet-base/
