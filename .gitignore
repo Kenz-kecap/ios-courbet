@@ -1,0 +1,23 @@
+# Firmware artifacts (big binaries, secrets-free but large)
+hw/firmware/miui_courbet.zip
+hw/firmware/extracted/
+hw/firmware/*.zip
+hw/firmware/*.br
+*.dat.br
+*.patch.dat
+
+# Build outputs
+shim/out/
+xnu/out/
+out/
+*.img
+*.simg
+*.adt
+*.payload
+research/
+
+# Per-device secrets (keep out of git)
+backup/
+dtb/
+recovery/
+logs/
